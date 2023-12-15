@@ -1,0 +1,21 @@
+{
+  "name": "seleniumtests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "mocha": {
+    "timeout": 120000
+  },  
+  "dependencies": {
+    "chai": "^4.3.10",
+    "chromedriver": "^120.0.0",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.16.0"
+  }
+}
